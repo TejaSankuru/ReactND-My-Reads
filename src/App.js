@@ -21,6 +21,7 @@ moveShelf = (book, shelf) => {
        BooksAPI.getAll().then((books) => {
            this.setState({ books: books })
          }) 
+}
  
   
   { /* BooksAPI.update(book,shelf).then(()=>{
